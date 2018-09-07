@@ -1,0 +1,7 @@
+[
+  {
+    "files": "./build/**/*.json",
+    "generator": "typechain",
+    "target": "truffle"
+  }
+]
