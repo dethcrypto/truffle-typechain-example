@@ -5,8 +5,9 @@
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.9.4",
     "truffle-typings": "^1.0.3",
-    "ts-generator": "^0.0.5",
+    "ts-generator": "^0.0.6",
     "ts-node": "^7.0.1",
+    "typechain": "^0.3.1",
     "typescript": "^3.0.3"
   },
   "dependencies": {
@@ -14,7 +15,7 @@
   },
   "scripts": {
     "generate": "truffle compile && ts-generator ./ts-generator.json",
-    "start": "node test.js",
+    "prepare": "yarn generate",
     "test": "truffle test && yarn tsc",
     "tsc": "tsc --noEmit"
   }
