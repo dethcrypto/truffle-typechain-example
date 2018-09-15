@@ -14,7 +14,7 @@
     "truffle": "^4.1.14"
   },
   "scripts": {
-    "generate": "truffle compile && ts-generator ./ts-generator.json",
+    "generate": "truffle compile && typechain --target truffle ./build/**/*.json",
     "prepare": "yarn generate",
     "test": "truffle test && yarn tsc",
     "tsc": "tsc --noEmit"
