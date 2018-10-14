@@ -28,7 +28,7 @@ module.exports = {
 
 ```
 "scripts": {
-    "generate": "truffle compile && typechain --target truffle ./build/**/*.json",
+    "generate": "truffle compile && typechain --target truffle './build/**/*.json'",
     "prepare": "yarn generate",
   }
 ```
