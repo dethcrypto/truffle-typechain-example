@@ -1,14 +1,14 @@
 {
   "devDependencies": {
     "@types/bignumber.js": "^5.0.0",
-    "@types/chai": "^4.1.4",
+    "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
-    "@types/node": "^10.9.4",
-    "truffle-typings": "^1.0.4",
-    "ts-generator": "^0.0.6",
+    "@types/node": "^10.12.2",
+    "truffle-typings": "^1.0.5",
+    "ts-generator": "^0.0.8",
     "ts-node": "^7.0.1",
     "typechain": "^0.3.8",
-    "typescript": "^3.0.3"
+    "typescript": "^3.1.6"
   },
   "dependencies": {
     "truffle": "^4.1.14"
