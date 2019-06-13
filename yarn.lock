@@ -9,6 +9,13 @@
   dependencies:
     bignumber.js "*"
 
+"@types/bn.js@*":
+  version "4.11.5"
+  resolved "https://registry.yarnpkg.com/@types/bn.js/-/bn.js-4.11.5.tgz#40e36197433f78f807524ec623afcf0169ac81dc"
+  integrity sha512-AEAZcIZga0JgVMHNtl1CprA/hXX7/wPt79AgR4XqaDt7jyj3QWYw6LPoOiznPtugDmlubUnAahMs2PFxGcQrng==
+  dependencies:
+    "@types/node" "*"
+
 "@types/chai@^4.1.4", "@types/chai@^4.1.7":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.7.tgz#1b8e33b61a8c09cbe1f85133071baa0dbf9fa71a"
@@ -47,6 +54,19 @@
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   dependencies:
     "@types/node" "*"
+
+"@types/underscore@*":
+  version "1.8.19"
+  resolved "https://registry.yarnpkg.com/@types/underscore/-/underscore-1.8.19.tgz#ae1357f2d28b8089f86ba0e5545d0512e6ef5b28"
+  integrity sha512-9r6zM91/lTnSYTEJbxf7FwgeVXzRZDegaGPXF+Bp0MSMYTTI2UvQPkoti/YE9ZWThU+0DMya6l9XePvOPBLKow==
+
+"@types/web3@^1.0.18":
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@types/web3/-/web3-1.0.18.tgz#87a8651041d21fc37602ff02327df2c7ecf105d1"
+  integrity sha512-uXQL0LDszt2f476LEmYM6AvSv9F4vU4hWQvlUhwfLHNlIB6OyBXoYsCzWAIhhnc5U0HA7ZBcPybxRJ/yfA6THg==
+  dependencies:
+    "@types/bn.js" "*"
+    "@types/underscore" "*"
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -703,13 +723,14 @@ test-value@^2.1.0:
     array-back "^1.0.3"
     typical "^2.6.0"
 
-truffle-typings@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/truffle-typings/-/truffle-typings-1.0.5.tgz#511e324397843e27c76451304874267cbadc74cb"
-  integrity sha512-mHkUwuoXBvPMzwg/jtD3cEvAiAa373HZhoDYCA5nLfmtSVKQQvCIEpk74AE4sB+Zl8BquN/oYIRsHKSZi7lCgg==
+truffle-typings@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/truffle-typings/-/truffle-typings-1.0.7.tgz#6a0f47247dc860893c8a758053005028db763c3d"
+  integrity sha512-VD9N/hi5Jc0hHT7VKNR2OeB6/n9RY9tIs8tZr/ICa3gUkIra2uZaw2JEJhcysr88T1rrDBP6mV/Nu4qbI9n7VQ==
   dependencies:
     "@types/chai" "^4.1.4"
     "@types/mocha" "^5.2.5"
+    "@types/web3" "^1.0.18"
 
 truffle@^4.1.14:
   version "4.1.14"
