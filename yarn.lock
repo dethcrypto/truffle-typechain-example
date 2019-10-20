@@ -780,17 +780,17 @@ ts-node@^7.0.1:
     source-map-support "^0.5.6"
     yn "^2.0.0"
 
-typechain-target-truffle@^1.0.0-beta.0:
-  version "1.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/typechain-target-truffle/-/typechain-target-truffle-1.0.0-beta.0.tgz#2ca6d94722c9d1141fa7ab08de5268ecf71782f5"
-  integrity sha512-4i4+uXqZUvU+QiJpXm8fbD40qcyIjPEDQ8pdS+fmrew5JabeZmK64tlCUAOGJIvR+2PhCtX+cDzjbqgGNJtEtQ==
+typechain-target-truffle@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/typechain-target-truffle/-/typechain-target-truffle-1.0.0.tgz#57e6cd2ea582d94b4b4a2a4626b3b21e42662a82"
+  integrity sha512-oacoGf9sBd29GDbf1DC2cE2V1JYvmhYz541zhwYBlbLH9i4mSzlQChDxYibFaifVEKPdZ4eJ+zz23lZ/DsNyYw==
   dependencies:
     lodash "^4.17.15"
 
-typechain@^1.0.0-beta.3:
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/typechain/-/typechain-1.0.0-beta.3.tgz#1cd628b20bd41f7410ee71aeb438a96dc0d112a0"
-  integrity sha512-a/Qnmh0Kryjw6zs2+R8Y6R0lRDjfIaBXjVCPnYqig5mXmXx2LfsxdKrcCB4uPRPikUv/6OfQ+NmXByQIW/imPA==
+typechain@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/typechain/-/typechain-1.0.0.tgz#5cdb5ff780fc6e8dbf66c6915293452edcceeb05"
+  integrity sha512-P8PQdBckQMy3S8q4yrf1gxG8zM30E0FmzGajX1WMrSxdRojO27F1WAjiy4BbfQk7nmV0DmvEus4/f4Gh5S3h/A==
   dependencies:
     command-line-args "^4.0.7"
     debug "^3.0.1"
