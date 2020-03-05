@@ -37,4 +37,6 @@ module.exports = {
 
 6. Your migration functions should be typed as: `Truffle.Migration` and you sometimes need to make sure that they are treated as modules by `tsc` by adding: `export {};`.
 
-7. It's done! 🔥 Make sure to use `.ts` extension for everything
+7. If you run tests with `truffle test` you might need to tweak your `tsconfig.json`, otherwise you get missing import errors like `Cannot find name 'artifacts'`. [An example config is provided in this project](./tsconfig.json).
+
+8. It's done! 🔥 Make sure to use `.ts` extension for everything
