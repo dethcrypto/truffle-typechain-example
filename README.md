@@ -1,5 +1,7 @@
 # truffle-typechain-example
 
+# Deprecated. We moved examples to TypeChain repo: https://github.com/ethereum-ts/TypeChain/tree/master/examples
+
 Example how to use Truffle suite with Typescript and Typechain
 
 ## Usage:
