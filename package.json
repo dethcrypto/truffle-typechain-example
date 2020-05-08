@@ -12,7 +12,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
-    "truffle": "^4.1.14"
+    "truffle": "^5.1.9"
   },
   "scripts": {
     "generate": "truffle compile && typechain --target truffle './build/**/*.json'",
